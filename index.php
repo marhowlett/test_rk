@@ -21,17 +21,66 @@
 			<section>
 			
 			
-				<form class="ac-custom ac-radio ac-fill" autocomplete="off">
+				<form class="ac-custom ac-radio ac-fill borde" autocomplete="off">
 					<h2>¿Cuál de estos es tu RK favorito?</h2>
-					<ul>
+					<div class="imagenes">
+					<ul >
 					    <li> <img src="img/a1.png" alt=""> </li>
 					    <li><img src="img/b1.png" alt=""></li>
 					    <li><img src="img/c1.png" alt=""></li>
 					</ul>
-					<ul>
+					</div>
+					<ul class="radio">
 						<li><input id="r1" name="r1" type="radio"><label for="r1">&nbsp;</label></li>
 						<li><input id="r2" name="r1" type="radio"><label for="r2">&nbsp;</label></li>
 						<li><input id="r3" name="r1" type="radio"><label for="r3">&nbsp;</label></li>
+					</ul>
+					
+				</form>
+
+				
+           
+			</section>
+			<section>
+			
+			
+				<form class="ac-custom ac-radio ac-fill borde" autocomplete="off">
+					<h2>¿Qué emojis utilizas más?</h2>
+					<div class="imagenes">
+					<ul >
+					    <li> <img src="img/a2.png" alt=""> </li>
+					    <li><img src="img/b2.png" alt=""></li>
+					    <li><img src="img/c2.png" alt=""></li>
+					</ul>
+					</div>
+					<ul class="radio">
+						<li><input id="r1" name="r2" type="radio"><label for="r2">&nbsp;</label></li>
+						<li><input id="r2" name="r2" type="radio"><label for="r2">&nbsp;</label></li>
+						<li><input id="r3" name="r2" type="radio"><label for="r2">&nbsp;</label></li>
+					</ul>
+					
+				</form>
+
+				
+           
+			</section>
+			
+			<section>
+			
+			
+				<form class="ac-custom ac-radio ac-fill borde" autocomplete="off">
+					<h2>¿Cuál es tu comida favorita?</h2>
+					<div class="imagenes">
+					<ul >
+					    <li> <img src="img/a3.png" alt=""> </li>
+					    <li><img src="img/b3.png" alt=""></li>
+					    <li><img src="img/c3.png" alt=""></li>
+					</ul>
+					</div>
+					<ul class="radio">
+						<li><input id="r1" name="r3" type="radio"><label for="r3">&nbsp;</label></li>
+						<li><input id="r2" name="r3" type="radio"><label for="r3">&nbsp;</label></li>
+						<li><input id="r3" name="r3" type="radio"><label for="r3">&nbsp;</label></li>
 					</ul>
 					
 				</form>

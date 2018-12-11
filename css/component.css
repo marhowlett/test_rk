@@ -23,6 +23,7 @@
 .ac-custom ol {
     list-style: none;
     padding: 0;
+    padding-right: 80px;
     margin: 50px auto;
 	
 }
@@ -191,6 +192,64 @@
         
         
 	}
+    img {
+    display: block;
+    margin: auto;
+            right: initial;
+        margin-left: 21px;
+            padding-top: 100px;
+    }
+    label {
+            text-align: center;
+   right: 83px;
+          padding-top: 331px!important;
+    font-size: .85em;
+        line-height: 348%;
+    /* margin-right: 150px; */
+    }
+    .radio {
+             margin-top: -1049px!important;
+          
+    }
+    .ac-custom svg {
+   
+    margin-top: 182px;
+    left: -76px;
+    }
+    h2 {
+            margin-bottom: -132px!important;
+    }
+ /*   .ac-custom li {
+    display: contents;
+    margin: 0 0; 
+    padding: 0; 
+    margin-left:0px; 
+   
+     margin-top: 0 px; 
+    position: relative;
+  }
+  img {
+        margin-left: -171px;
+    position: relative;
+    right: -67px;
+    max-width: 30%;
+  }
+  .ac-custom ul,
+  .ac-custom ol {
+    list-style: none;
+    padding: 0;
+     padding-left: 0px; 
+     padding-right: 0px; 
+    margin: 50px auto;
+   margin-left: 0px; 
+  }
+
+    .imagenes {
+        margin-left: 30px;
+    }
+    .radio {
+            margin-left: 22px!important;
+    }
     
-    
+    */
 }
