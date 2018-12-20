@@ -96,11 +96,11 @@
 
 .ac-custom svg {
 	position: absolute;
-	width: 40px;
-	height: 40px;
-	top: 50%;
-	    margin-top: -9px;
-	left: 5px;
+width: 42px;
+    height: 40px;
+    top: 50%;
+    margin-top: -2px;
+    left: 5px;
 	pointer-events: none;
 }
 
