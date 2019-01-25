@@ -23,10 +23,10 @@ echo ($nombre);
 		<body class="seccion3">
 		<div class="container">
 			<!-- Top Navigation -->
-			<section class="template-section">
+			<section class="template-section tres">
 			
 			
-				<form class="ac-custom ac-radio ac-fill borde" autocomplete="off"  action="validar.php?nombre=<?php echo $nombre ?>&r1=<?php echo $r1; ?>&r2=<?php echo $r2; ?>" method="post" >
+				<form class="ac-custom ac-custom3 ac-radio ac-fill borde" autocomplete="off"  action="validar.php?nombre=<?php echo $nombre ?>&r1=<?php echo $r1; ?>&r2=<?php echo $r2; ?>" method="post" >
 					
 					<h2>TODA LA DIVERSIÓN DE EMOJI</h2>
 	<p>Los únicos con la licencia oficial más original e innovadora</p>

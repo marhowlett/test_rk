@@ -22,7 +22,7 @@ echo ($nombre);
 			<section class="template-section">
 			
 			
-				<form class="ac-custom ac-radio ac-fill borde" autocomplete="off"  action="seccion2.php?nombre=<?php echo $nombre ?>&variable2=<?php echo $a; ?>" method="post" >
+				<form class="ac-custom ac-custom2  ac-radio ac-fill borde" autocomplete="off"  action="seccion2.php?nombre=<?php echo $nombre ?>&variable2=<?php echo $a; ?>" method="post" >
 		
 					<h2>TODA LA DIVERSIÓN DE EMOJI</h2>
 	<p>Los únicos con la licencia oficial más original e innovadora</p>
@@ -36,10 +36,10 @@ echo ($nombre);
 					
 					</div>
 					<ul class="radio">
-						<li><input id="a1" name="b1" type="radio" value="1" required ><label for="a1">&nbsp;</label></li>
+						<li><input id="a1" name="b1" type="radio" value="1" required ><label class="primera" for="a1">&nbsp;</label></li>
 						
-						<li><input id="a2" name="b1" type="radio" value="2" ><label for="a2">&nbsp;</label></li>
-						<li><input id="a3" name="b1" type="radio" value="3"><label for="a3">&nbsp;</label></li>
+						<li><input id="a2" name="b1" type="radio" value="2" ><label class="primera" for="a2">&nbsp;</label></li>
+						<li><input id="a3" name="b1" type="radio" value="3"><label class="primera" for="a3">&nbsp;</label></li>
 					</ul>
 					
 					

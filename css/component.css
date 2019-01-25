@@ -111,6 +111,14 @@ width: 42px;
 	stroke-linejoin: round;
 	fill: none;
 }
+.ac-custom3 svg path {
+	stroke: #284a6c;
+	stroke-width: 13px;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	fill: none;
+}
+
 
 /* Specific input, SVG and path styles */
 
@@ -187,38 +195,80 @@ width: 42px;
 
 /* Media Queries */
 @media screen and (max-width: 50em) {
+	.tres {
+		    margin-left: -59px!important;
+	}
+	.ac-custom input[type="checkbox"], .ac-custom input[type="radio"], .ac-custom label::before {
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: 0;
+    margin-top: -19px;
+    margin-left: -12px;
+    position: absolute;
+    cursor: pointer;
+}
+	
+	.ac-custom ul {
+		    padding-right: initial;
+		    margin-top: -159px;
+	}
+	
 	section {
 		font-size: 80%;
         
         
 	}
     img {
-    display: block;
-    margin: auto;
-            right: initial;
-        margin-left: 21px;
-            padding-top: 100px;
+
+           
+           padding-top: 185px;
+           margin-left: -218px!important;
+    
     }
+	li.prueba {
+    margin-left: 166px;
+    display: none!important;
+}
+	.template-section h2 {
+	    margin-bottom: 8px!important;
+	}
+	img.menu2 {
+		display: none!important;
+	}
     label {
             text-align: center;
-   right: 83px;
+   right: 55px;
           padding-top: 331px!important;
     font-size: .85em;
         line-height: 348%;
     /* margin-right: 150px; */
     }
+	label.primera {
+		right: 83px;
+	}
     .radio {
              margin-top: -1049px!important;
           
     }
-    .ac-custom svg {
+	.ac-custom svg {
    
-    margin-top: 182px;
-    left: -76px;
+       margin-top: 202px;
+        left: -62px;
+    }
+    .ac-custom2 svg {
+   
+       margin-top: 202px;
+    left: -89px;
     }
     h2 {
             margin-bottom: -132px!important;
     }
+	.btn-2g {
+    border-radius: 40px;
+    margin-left: -22px!important;
+}
+	
  /*   .ac-custom li {
     display: contents;
     margin: 0 0; 

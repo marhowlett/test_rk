@@ -1,7 +1,7 @@
 <html class="inicio">
 <?php include 'bubble.php'; ?>
 <link rel="stylesheet" type="text/css" href="less/main.css" />
-
+         
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component2.css" />
 		<script src="js/modernizr.custom.js"></script>
