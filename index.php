@@ -14,7 +14,8 @@
 		<h2>¿Qué RK eres?</h2>
 		<p>¡Te sorprenderás!</p>
 	</div>
-	<img src="img/balones.png" alt="">
+	<img src="img/balones.png" class="compu" alt="">
+	<img src="img/balones_responsive.png" class="responsive" alt="">
 	<div class="buton">
 	<a href="nombre.php"><button class="btn btn-2 btn-2g">JUGAR</button></a>
 	</div>

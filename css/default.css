@@ -5,8 +5,33 @@
 	}
 	body.inicio section {
     width: 80%;
+		    margin-top: -44px;
+		 margin-left: 44px;
 	}
-
+	body.inicio section h2 {
+		   font-size: 2.1em;
+		    text-transform: uppercase;
+	}
+	body.inicio {
+  
+    background: url(../img/fondo_responsive.png) no-repeat center;
+    
+}
+	.compu {
+		display: none;
+	}
+	.responsive {
+		display: inherit;
+	}
+	body.inicio .que_eres {
+   
+    width: 276px;
+    height: 150px;
+	}
+	body.inicio section img {
+    margin-top: -22px;
+    max-width: 100%;
+	}
 }
 
 /* General Demo Style */

@@ -98,6 +98,9 @@ form {
   background: #f34fef;
 }
 /**********INICIO****/
+.responsive {
+  display: none;
+}
 html.inicio {
   width: 100%;
 }
