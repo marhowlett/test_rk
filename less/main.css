@@ -281,7 +281,6 @@ body.a section.a .col .btn-2g:hover {
   box-shadow: 0 4px #092f57;
 }
 /****RESULTADO B**/
-/****RESULTADO A ***/
 body.b {
   background: url(../img/premio2.png) no-repeat center;
   background-attachment: fixed;
@@ -323,21 +322,113 @@ body.b section.a .col .btn-2 {
 body.b section.a .col .btn-2g:hover {
   box-shadow: 0 4px #092f57;
 }
+/****RESULTADO C**/
+body.c {
+  background: url(../img/premio3.png) no-repeat center;
+  background-attachment: fixed;
+}
+body.c section.a {
+  padding: 0;
+  margin-top: -99px;
+}
+body.c section.a .responsive {
+  display: none;
+}
+body.c section.a .computadora {
+  display: inherit;
+}
+body.c section.a .col.dos {
+  background: url(../img/premio_enlace.png) no-repeat center;
+  min-height: 611px;
+}
+body.c section.a .col h2,
+body.c section.a .col p {
+  text-align: center;
+  max-width: 400px;
+  display: block;
+  margin: auto;
+  color: #092f57;
+}
+body.c section.a .col h2 {
+  margin-top: 100px;
+  text-transform: uppercase;
+}
+body.c section.a .col .buton {
+  text-align: center;
+}
+body.c section.a .col .btn-2 {
+  background: #4267b2;
+  color: #fff;
+  box-shadow: 0 6px #092f57;
+}
+body.c section.a .col .btn-2g:hover {
+  box-shadow: 0 4px #092f57;
+}
+/****RESULTADOS D*/
+body.d {
+  background: url(../img/premio4.png) no-repeat center;
+  background-attachment: fixed;
+}
+body.d section.a {
+  padding: 0;
+  margin-top: -99px;
+}
+body.d section.a .responsive {
+  display: none;
+}
+body.d section.a .computadora {
+  display: inherit;
+}
+body.d section.a .col.dos {
+  background: url(../img/premio_enlace.png) no-repeat center;
+  min-height: 611px;
+}
+body.d section.a .col h2,
+body.d section.a .col p {
+  text-align: center;
+  max-width: 400px;
+  display: block;
+  margin: auto;
+  color: #092f57;
+}
+body.d section.a .col h2 {
+  margin-top: 100px;
+  text-transform: uppercase;
+}
+body.d section.a .col .buton {
+  text-align: center;
+}
+body.d section.a .col .btn-2 {
+  background: #4267b2;
+  color: #fff;
+  box-shadow: 0 6px #092f57;
+}
+body.d section.a .col .btn-2g:hover {
+  box-shadow: 0 4px #092f57;
+}
 @media screen and (max-width: 50em) {
   body.a,
-  body.b {
+  body.b,
+  body.c,
+  body.d {
     background: url(../img/premio1_responsive.png) no-repeat center;
   }
   body.a .col,
-  body.b .col {
+  body.b .col,
+  body.c .col,
+  body.d .col {
     width: 100%;
   }
   body.a .invertido,
-  body.b .invertido {
+  body.b .invertido,
+  body.c .invertido,
+  body.d .invertido {
     flex-wrap: wrap-reverse;
   }
   body.a .col.dos,
-  body.b .col.dos {
+  body.b .col.dos,
+  body.c .col.dos,
+  body.d .col.dos {
     background: url(../img/premio_enlace_responsive.png) no-repeat center !important;
     /* min-height: 1px; */
     padding: inherit;
@@ -347,17 +438,23 @@ body.b section.a .col .btn-2g:hover {
     /* margin: 10px 10px; */
   }
   body.a h2,
-  body.b h2 {
+  body.b h2,
+  body.c h2,
+  body.d h2 {
     width: 80%;
     font-size: 2em;
   }
   body.a p,
-  body.b p {
+  body.b p,
+  body.c p,
+  body.d p {
     width: 80%;
     font-size: 1.2em;
   }
   body.a img,
-  body.b img {
+  body.b img,
+  body.c img,
+  body.d img {
     position: absolute;
     border: 0;
     margin-top: -107px;

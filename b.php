@@ -6,18 +6,18 @@ session_start(); //Iniciamos la Sesion o la Continuamos
 	<title>ERES UN 
 RK COOL</title>
 <meta property="og:title" content="ERES UN 
-RK ÁNGEL" />
+RK COOL" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://test.rksports.com.mx/test/a.php" />
+<meta property="og:url" content="http://test.rksports.com.mx/test/b.php" />
 <meta property="og:image" content="http://test.rksports.com.mx/test/img/Resultados-Test_Cool.png" />
-<meta property="og:description" content="Eres optimista, feliz, auténtico y una buena persona. Las personas que te rodean te califican como honesto, responsable y modesto. Eres buen hij@, amig@ y pareja. Sin duda eres una persona admirable y exitosa." />
+<meta property="og:description" content="Sin duda es el más cool de su casa, su escuela, su trabajo y su grupo de amigos. | ¿Qué RK eres? Te sorprenderás." />
 	
 <link rel="stylesheet" type="text/css" href="less/main.css" />
 <link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component2.css" />
 		<script src="js/modernizr.custom.js"></script>
 </head>	    
-<body class="b">
+<body class="a">
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -30,14 +30,14 @@ RK ÁNGEL" />
 <section class="template-section a">
 <div class="grid invertido">
 	<div class="col computadora">&nbsp;</div>
-	<div class="col responsive"> <img src="img/angel.png" alt=""></div>
+	<div class="col responsive"> <img src="img/cool.png" alt=""></div>
 	<div class="col dos">
 	
-	<h2> <?php echo ($_SESSION["name"]) ?> ES UN
-RK Ángel</h2>
+	<h2> <?php echo ($_SESSION["name"]) ?> ERES UN 
+RK COOL</h2>
 	<p>Sin duda es el más cool de su casa, su escuela, su trabajo y su grupo de amigos. Es sociable y siempre está al tanto de las últimas tendencias. Lo suyo es la vanguardia y los buenos momentos.</p>
 
-		<div class="buton "><a target="_blank" class="btn btn-2 btn-2g " href="http://www.facebook.com/sharer.php?u=http://test.rksports.com.mx/test/a.php" >Compartir </a></div>
+		<div class="buton "><a target="_blank" class="btn btn-2 btn-2g " href="http://www.facebook.com/sharer.php?u=http://test.rksports.com.mx/test/b.php" >Compartir </a></div>
 		</div>
 </div>
 	</section>

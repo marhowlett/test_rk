@@ -74,7 +74,7 @@ if ($bandera==0)
     
 {
 	
-    header("Location: ninguna.php?nombre=<?php echo $nombre ?>");
+    header("Location: d.php?nombre=<?php echo $nombre ?>");
       exit();
 }
     

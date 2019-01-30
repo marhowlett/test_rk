@@ -22,7 +22,7 @@
 			<div class="menu-wrap">
 				<nav class="menu">
 					<div class="icon-list">
-						<a href="#"><span>Logo</span></a>
+						<a href="http://test.rksports.com.mx/test/"><span>Inicio</span></a>
 						<a href="#"><span>Alerts</span></a>
 						<a href="#"><span>Messages</span></a>
 						<a href="#"><span>Comments</span></a>
