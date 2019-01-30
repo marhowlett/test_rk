@@ -12,7 +12,7 @@
 			
 	
 			<section  class="template-section">
-				<h2>TODA LA DIVERSIÓN DE EMOJI</h2>
+				<h2 class="diversion">TODA LA DIVERSIÓN DE EMOJI</h2>
 	<p>Los únicos con la licencia oficial más original e innovadora</p>
 			<p class="general">En general, ¿cómo te gusta que te llame la gente?</p>
 			<form action="seccion1.php" method="post" >

@@ -290,6 +290,12 @@ body.a {
 	background-attachment: fixed;
 	section.a
 	{
+		.responsive {
+			display: none;
+		}
+		.computadora {
+			display: inherit;
+		}
 		padding: 0;
 		    margin-top: -99px;
 		.col {
@@ -327,4 +333,107 @@ body.a {
 	}
 }
 
-@import "responsive";
+/****RESULTADO B**/
+
+/****RESULTADO A ***/
+
+body.b {
+	background: url(../img/premio2.png) no-repeat center;
+	background-attachment: fixed;
+	section.a
+	{
+		.responsive {
+			display: none;
+		}
+		.computadora {
+			display: inherit;
+		}
+		padding: 0;
+		    margin-top: -99px;
+		.col {
+		
+			&.dos {
+			background: url(../img/premio_enlace.png) no-repeat center;
+				    min-height: 611px;
+			}
+			
+			h2,p {
+				    text-align: center;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+ 
+				color: #092f57;
+			}
+			h2 {
+				   margin-top: 100px;
+				text-transform: uppercase;
+			}
+			.buton {
+				text-align: center;
+			}
+			.btn-2 {
+    background: #4267b2;
+    color: #fff;
+    box-shadow: 0 6px #092f57;
+			}
+			.btn-2g:hover {
+    box-shadow: 0 4px #092f57;
+			}
+			
+		}
+	}
+}
+
+@media screen and (max-width: 50em) {
+	
+	body.a, body.b {
+    background: url(../img/premio1_responsive.png) no-repeat center;
+	}
+	body.a, body.b {
+		.col {
+			width: 100%;
+		}
+		.invertido{
+            flex-wrap: wrap-reverse;
+        }
+		.col.dos {
+    background: url(../img/premio_enlace_responsive.png) no-repeat center!important;
+    /* min-height: 1px; */
+    padding: inherit;
+    /* padding-right: 173px; */
+    margin-left: 20px;
+    margin-right: 103px;
+    /* margin: 10px 10px; */
+}
+		h2 {
+			    width: 80%;
+			font-size: 2em;
+		}
+		p {
+			 width: 80%;
+			font-size: 1.2em;
+		}
+		img {
+			    position: absolute;
+    border: 0;
+    margin-top: -107px;
+    max-width: 75%;
+   margin-bottom: 23px;
+		}
+		
+	}
+	
+	
+	.responsive {
+		display: inherit!important;
+		width: 20%;
+    height: 10%;
+		    padding: initial!important;
+		    min-height: auto!important;
+	}
+	.computadora {
+			display: none!important;
+		}
+	
+}

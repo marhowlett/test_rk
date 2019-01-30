@@ -2,11 +2,21 @@
 session_start(); //Iniciamos la Sesion o la Continuamos
 ?>
 <?php include 'bubble.php'; ?>
+<head>
+	<title>ERES UN 
+RK COOL</title>
+<meta property="og:title" content="ERES UN 
+RK COOL" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://test.rksports.com.mx/test/a.php" />
+<meta property="og:image" content="http://test.rksports.com.mx/test/img/Resultados-Test_Cool.png" />
+<meta property="og:description" content="Sin duda es el más cool de su casa, su escuela, su trabajo y su grupo de amigos. | ¿Qué RK eres? Te sorprenderás." />
+	
 <link rel="stylesheet" type="text/css" href="less/main.css" />
 <link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component2.css" />
 		<script src="js/modernizr.custom.js"></script>
-	     <title>Test RK</title>
+</head>	    
 <body class="a">
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -18,16 +28,17 @@ session_start(); //Iniciamos la Sesion o la Continuamos
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <section class="template-section a">
-<div class="grid">
-	<div class="col">&nbsp;</div>
+<div class="grid invertido">
+	<div class="col computadora">&nbsp;</div>
+	<div class="col responsive"> <img src="img/feliz.png" alt=""></div>
 	<div class="col dos">
 	
 	<h2> <?php echo ($_SESSION["name"]) ?> ERES UN 
 RK COOL</h2>
-<p>Sin duda es el más cool de su casa, su escuela, su trabajo y su grupo de amigos. Es sociable y siempre está al tanto de las últimas tendencias. Lo suyo es la vanguardia y los buenos momentos.</p>
-		<div class="buton"><a class="btn btn-2 btn-2g" href="http://www.facebook.com/sharer.php?u=http://test.rksports.com.mx/test/a.php" >Compartir </a></div>
-		<div class="fb-share-button" data-href="http://test.rksports.com.mx/test/a.php" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftest.rksports.com.mx%2Ftest%2Fa.php&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a></div>
-	</div>
+	<p>Sin duda es el más cool de su casa, su escuela, su trabajo y su grupo de amigos. Es sociable y siempre está al tanto de las últimas tendencias. Lo suyo es la vanguardia y los buenos momentos.</p>
+
+		<div class="buton "><a target="_blank" class="btn btn-2 btn-2g " href="http://www.facebook.com/sharer.php?u=http://test.rksports.com.mx/test/a.php" >Compartir </a></div>
+		</div>
 </div>
 	</section>
 	

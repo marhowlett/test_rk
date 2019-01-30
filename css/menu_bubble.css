@@ -228,6 +228,7 @@ img.menu2 {
 }
 
 @media screen and (max-width: 50em) {
+	
 	img.menu2 {
 		display: none!important;
 	}
@@ -239,4 +240,7 @@ img.menu2 {
     line-height: 1.3em;
     max-width: 300px;
 }
+	.diversion{
+	margin-left: 20px;
+	}
 }

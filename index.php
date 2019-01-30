@@ -5,7 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component2.css" />
 		<script src="js/modernizr.custom.js"></script>
-	
+	<title>Hola</title>
 <body class="inicio">
 	<section class="template-section">
 	<h2>TODA LA DIVERSIÓN DE EMOJI</h2>
