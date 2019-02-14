@@ -22,12 +22,12 @@
 			<div class="menu-wrap">
 				<nav class="menu">
 					<div class="icon-list">
-						<a href="http://test.rksports.com.mx/test/"><span>Inicio</span></a>
-						<a href="#"><span>Alerts</span></a>
-						<a href="#"><span>Messages</span></a>
-						<a href="#"><span>Comments</span></a>
-						<a href="#"><span>Analytics</span></a>
-						<a href="#"><span>Reading List</span></a>
+						<a href="https://rksports.com.mx"><span>Inicio</span></a>
+						<a href="http://test.rksports.com.mx"><span>Descubre cuál RK eres</span></a>
+						<a href="https://rksports.com.mx#colecciones"><span>Colecciones</span></a>
+						<a href="https://rksports.com.mx#contacto"><span>Contacto</span></a>
+						<a href="https://rksports.com.mx#acercade"><span>Acerca de</span></a>
+						
 					</div>
 				</nav>
 				<button class="close-button" id="close-button">Close Menu</button>

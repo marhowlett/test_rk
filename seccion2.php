@@ -1,8 +1,8 @@
 <?php
 $r1=$_POST["b1"];  //lee usuario del formulario
-echo ($r1);
+
 $nombre=($_GET['nombre']);
-echo ($nombre);
+
 ?>
 
 <?php include 'bubble.php'; ?>
@@ -26,9 +26,8 @@ echo ($nombre);
 			
 				<form class="ac-custom ac-radio ac-fill borde" autocomplete="off"  action="seccion3.php?nombre=<?php echo $nombre ?>&r1=<?php echo $r1; ?>" method="post" >
 					
-					<h2>TODA LA DIVERSIÓN DE EMOJI</h2>
-	<p>Los únicos con la licencia oficial más original e innovadora</p>
-				<p>¿Qué emojis utilizas más?</p>
+					<h2>¿Qué emojis utilizas más?</h2>
+	
 					<div class="imagenes">
 					<ul >
 					    <li> <img src="img/a2.png" alt=""> </li>
@@ -37,9 +36,9 @@ echo ($nombre);
 					</ul>
 					</div>
 					<ul class="radio">
-						<li><input id="c1" name="d1" type="radio" value="1" required> <label for="c1">&nbsp;</label></li>
-						<li><input id="c2" name="d1" type="radio" value="2"><label for="c2">&nbsp;</label></li>
-						<li><input id="c3" name="d1" type="radio" value="3"><label for="c3">&nbsp;</label></li>
+						<li><input id="c1" name="d1" type="radio" value="1" required onclick="myFunction()"> <label for="c1">&nbsp;</label></li>
+						<li><input id="c2" name="d1" type="radio" value="2" onclick="myFunction()"><label for="c2">&nbsp;</label></li>
+						<li><input id="c3" name="d1" type="radio" value="3" onclick="myFunction()"><label for="c3">&nbsp;</label></li>
 					</ul>
 					<ul class="prueba">
 						<li class="prueba">CORAZONES</li>
@@ -49,7 +48,7 @@ echo ($nombre);
 
 
 				
-					<button class="btn btn-2 btn-2g">SIGUIENTE</button>
+					<button id="boton" class="btn btn-2 btn-2g">SIGUIENTE</button>
 				</form>
 
 				
@@ -59,6 +58,11 @@ echo ($nombre);
 		</div><!-- /container -->
 		
 		<script src="js/svgcheckbx.js"></script>
+				<script>
+function myFunction() {
+  window.location.href = "#boton";
+}
+</script>
 		
 	</body>
 </html>

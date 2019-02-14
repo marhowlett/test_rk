@@ -463,8 +463,6 @@ body.d section.a .col .btn-2g:hover {
   }
   .responsive {
     display: inherit!important;
-    width: 20%;
-    height: 10%;
     padding: initial!important;
     min-height: auto!important;
   }

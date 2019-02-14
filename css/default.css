@@ -9,7 +9,7 @@
 		 margin-left: 44px;
 	}
 	body.inicio section h2 {
-		   font-size: 2.1em;
+		   font-size: 1.7em;
 		    text-transform: uppercase;
 	}
 	body.inicio {
@@ -29,6 +29,7 @@
     height: 150px;
 	}
 	body.inicio section img {
+        
     margin-top: -22px;
     max-width: 100%;
 	}
