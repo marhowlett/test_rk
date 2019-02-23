@@ -1,7 +1,6 @@
 <?php
 session_start(); //Iniciamos la Sesion o la Continuamos
 ?>
-<?php include 'bubble.php'; ?>
 
 <head>
     <title>
@@ -9,9 +8,9 @@ session_start(); //Iniciamos la Sesion o la Continuamos
     <meta property="og:title" content="<?php echo ($_SESSION["name"]) ?> ES UN RK Ángel" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="http://test.rksports.com.mx/a.php" />
-    <meta property="og:image" content="http://test.rksports.com.mx/img/Resultados-Test_Angel.png" />
+    <meta property="og:image" content="http://test.rksports.com.mx/img/Resultados-Test_Angel.jpg" />
     <meta property="og:description" content="Eres optimista, feliz, auténtico y una buena persona. | ¿Qué RK eres? Te sorprenderás." />
-
+    <?php include 'bubble_link.php'; ?>
     <link rel="stylesheet" type="text/css" href="less/main.css" />
     <link rel="stylesheet" type="text/css" href="css/default.css" />
     <link rel="stylesheet" type="text/css" href="css/component2.css" />
@@ -19,18 +18,8 @@ session_start(); //Iniciamos la Sesion o la Continuamos
 </head>
 
 <body class="b">
-    <div id="fb-root"></div>
-    <script>
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = 'https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v3.2';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-
-    </script>
+   <?php include 'bubble.php'; ?>
+    
 
     <section class="template-section a">
         <div class="grid invertido">
@@ -48,6 +37,7 @@ session_start(); //Iniciamos la Sesion o la Continuamos
                 
                 <!-- Load Facebook SDK for JavaScript -->
   <div id="fb-root"></div>
+  <?php include 'bubble_js.php'; ?>
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
@@ -56,11 +46,7 @@ session_start(); //Iniciamos la Sesion o la Continuamos
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
 
-  <!-- Your share button code -->
-  <div class="fb-share-button" 
-    data-href="https://www.your-domain.com/your-page.html" 
-    data-layout="button_count">
-  </div>
+  
            
             </div>
         </div>

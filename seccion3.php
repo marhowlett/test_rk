@@ -7,11 +7,11 @@ $nombre=($_GET['nombre']);
 
 ?>
 
-<?php include 'bubble.php'; ?>
 <!DOCTYPE html>
 <html lang="es" class="no-js">
 
 <head>
+   <?php include 'bubble_link.php'; ?>
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/demo2.css" />
@@ -23,6 +23,7 @@ $nombre=($_GET['nombre']);
 </head>
 
 <body class="preguntas azul seccion3">
+   <?php include 'bubble.php'; ?>
     <div class="container">
         <!-- Top Navigation -->
         <section class="template-section tres">
@@ -56,7 +57,7 @@ $nombre=($_GET['nombre']);
         </section>
 
     </div><!-- /container -->
-
+   <?php include 'bubble_js.php'; ?>
     <script src="js/svgcheckbx.js"></script>
     <script>
         function myFunction() {

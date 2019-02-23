@@ -107,7 +107,7 @@ html.inicio {
 body.inicio {
   text-align: center;
   width: 100%;
-  background: url(../img/fondo.png) no-repeat center;
+  background: url(../img/fondo.jpg) no-repeat center;
   background-attachment: fixed;
 }
 body.inicio section {
@@ -150,7 +150,7 @@ html.nombre {
 }
 body.nombre {
   width: 100%;
-  background: url(../img/fondo_nombre.png) no-repeat center;
+  background: url(../img/fondo_nombre.jpg) no-repeat center;
   background-attachment: fixed;
 }
 body.nombre .content {
@@ -209,13 +209,13 @@ body.preguntas.azul ul {
 }
 /***SECCION 1****/
 body.seccion1 {
-  background: url(../img/fondo_seccion1.png) no-repeat center;
+  background: url(../img/fondo_seccion1.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
 /***SECCION 2****/
 body.seccion2 {
-  background: url(../img/fondo_seccion2.png) no-repeat center;
+  background: url(../img/fondo_seccion2.jpg) no-repeat center;
   background-attachment: fixed;
 }
 body.seccion2 a {
@@ -229,12 +229,12 @@ body.seccion2 ul.prueba {
 }
 /***SECCION 3****/
 body.seccion3 {
-  background: url(../img/fondo_seccion3.png) no-repeat center;
+  background: url(../img/fondo_seccion3.jpg) no-repeat center;
   background-attachment: fixed;
 }
 /****RESULTADO A ***/
 body.a {
-  background: url(../img/premio1.png) no-repeat center;
+  background: url(../img/premio1.jpg) no-repeat center;
   background-attachment: fixed;
 }
 body.a section.a {
@@ -276,7 +276,7 @@ body.a section.a .col .btn-2g:hover {
 }
 /****RESULTADO B**/
 body.b {
-  background: url(../img/premio2.png) no-repeat center;
+  background: url(../img/premio2.jpg) no-repeat center;
   background-attachment: fixed;
 }
 body.b section.a {
@@ -318,7 +318,7 @@ body.b section.a .col .btn-2g:hover {
 }
 /****RESULTADO C**/
 body.c {
-  background: url(../img/premio3.png) no-repeat center;
+  background: url(../img/premio3.jpg) no-repeat center;
   background-attachment: fixed;
 }
 body.c section.a {
@@ -360,7 +360,7 @@ body.c section.a .col .btn-2g:hover {
 }
 /****RESULTADOS D*/
 body.d {
-  background: url(../img/premio4.png) no-repeat center;
+  background: url(../img/premio4.jpg) no-repeat center;
   background-attachment: fixed;
 }
 body.d section.a {
@@ -405,7 +405,7 @@ body.d section.a .col .btn-2g:hover {
   body.b,
   body.c,
   body.d {
-    background: url(../img/premio1_responsive.png) no-repeat center;
+    background: url(../img/premio1_responsive.jpg) no-repeat center;
   }
   body.a .col,
   body.b .col,

@@ -1,7 +1,6 @@
 <?php
 session_start(); //Iniciamos la Sesion o la Continuamos
 ?>
-<?php include 'bubble.php'; ?>
 <head>
 	<title>ERES UN 
 RK COOL</title>
@@ -9,15 +8,16 @@ RK COOL</title>
 RK COOL" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://test.rksports.com.mx/b.php" />
-<meta property="og:image" content="http://test.rksports.com.mx/img/Resultados-Test_Cool.png" />
+<meta property="og:image" content="http://test.rksports.com.mx/img/Resultados-Test_Cool.jpg" />
 <meta property="og:description" content="Sin duda es el más cool de su casa, su escuela, su trabajo y su grupo de amigos. | ¿Qué RK eres? Te sorprenderás." />
-	
+<?php include 'bubble_link.php'; ?>
 <link rel="stylesheet" type="text/css" href="less/main.css" />
 <link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component2.css" />
 		<script src="js/modernizr.custom.js"></script>
 </head>	    
 <body class="a">
+<?php include 'bubble.php'; ?>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -41,5 +41,5 @@ RK COOL</h2>
 		</div>
 </div>
 	</section>
-	
+	<?php include 'bubble_js.php'; ?>
 </body>

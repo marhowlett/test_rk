@@ -3,11 +3,11 @@
  $nombre=$_POST["name"];  //lee usuario del formulario
 
 ?>
-<?php include 'bubble.php'; ?>
 <!DOCTYPE html>
 <html lang="es" class="no-js">
 
 <head>
+   <?php include 'bubble_link.php'; ?>
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/demo2.css" />
@@ -19,6 +19,7 @@
 </head>
 
 <body class="seccion1">
+   <?php include 'bubble.php'; ?>
     <div class="container">
         <!-- Top Navigation -->
         <section class="template-section">
@@ -55,6 +56,7 @@
 
 
     <script src="js/svgcheckbx.js"></script>
+    <?php include 'bubble_js.php'; ?>
 
 </body>
 

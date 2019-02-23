@@ -1,7 +1,6 @@
 <?php
 session_start(); //Iniciamos la Sesion o la Continuamos
 ?>
-<?php include 'bubble.php'; ?>
 <head>
 	<title>ERES UN 
 RK FELIZ</title>
@@ -9,15 +8,16 @@ RK FELIZ</title>
 RK FELIZ" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://test.rksports.com.mx/c.php" />
-<meta property="og:image" content="http://test.rksports.com.mx/img/Resultados-Test_Fel.png" />
+<meta property="og:image" content="http://test.rksports.com.mx/img/Resultados-Test_Fel.jpg" />
 <meta property="og:description" content="Eres una persona feliz y todos sienten aprecio y una simpatía especial por ti | ¿Qué RK eres? Te sorprenderás." />
-	
+	<?php include 'bubble_link.php'; ?>
 <link rel="stylesheet" type="text/css" href="less/main.css" />
 <link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component2.css" />
 		<script src="js/modernizr.custom.js"></script>
 </head>	    
-<body class="a">
+<body class="d">
+<?php include 'bubble.php'; ?>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -30,7 +30,7 @@ RK FELIZ" />
 <section class="template-section a">
 <div class="grid invertido">
 	<div class="col computadora">&nbsp;</div>
-	<div class="col responsive"> <img src="img/cool.png" alt=""></div>
+	<div class="col responsive"> <img src="img/feliz.png" alt=""></div>
 	<div class="col dos">
 	
 	<h2> <?php echo ($_SESSION["name"]) ?> ERES UN 
@@ -40,5 +40,5 @@ RK FELIZ</h2>
 		</div>
 </div>
 	</section>
-	
+	<?php include 'bubble_js.php'; ?>
 </body>

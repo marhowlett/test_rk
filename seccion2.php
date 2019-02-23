@@ -4,12 +4,11 @@ $r1=$_POST["b1"];  //lee usuario del formulario
 $nombre=($_GET['nombre']);
 
 ?>
-
-<?php include 'bubble.php'; ?>
 <!DOCTYPE html>
 <html lang="es" class="no-js">
 
 <head>
+   <?php include 'bubble_link.php'; ?>
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/demo2.css" />
@@ -21,6 +20,7 @@ $nombre=($_GET['nombre']);
 </head>
 
 <body class="seccion2">
+   <?php include 'bubble.php'; ?>
     <div class="container">
         <!-- Top Navigation -->
         <section class="template-section">
@@ -55,7 +55,7 @@ $nombre=($_GET['nombre']);
         </section>
 
     </div><!-- /container -->
-
+    <?php include 'bubble_js.php'; ?>
     <script src="js/svgcheckbx.js"></script>
  
 

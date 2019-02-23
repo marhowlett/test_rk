@@ -9,15 +9,16 @@ RK EXTROVERTIDO</title>
 RK EXTROVERTIDO" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://test.rksports.com.mx/test/d.php" />
-<meta property="og:image" content="http://test.rksports.com.mx/img/Resultados-Test_Extro.png" />
+<meta property="og:image" content="http://test.rksports.com.mx/img/Resultados-Test_Extro.jpg" />
 <meta property="og:description" content="Amas romper las reglas, eres diferente y vanguardista | ¿Qué RK eres? Te sorprenderás." />
-	
+	<?php include 'bubble_link.php'; ?>
 <link rel="stylesheet" type="text/css" href="less/main.css" />
 <link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component2.css" />
 		<script src="js/modernizr.custom.js"></script>
 </head>	    
 <body class="c">
+<?php include 'bubble_link.php'; ?>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -41,5 +42,5 @@ RK Extrovertido</h2>
 		</div>
 </div>
 	</section>
-	
+	<?php include 'bubble_js.php'; ?>
 </body>
