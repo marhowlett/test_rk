@@ -42,7 +42,7 @@ h2 {
 .buto {
   color: #255543;
   background-color: #f8de01;
-  font-size: 1.5em!important;
+  font-size: 1.5em !important;
 }
 form {
   text-align: center;
@@ -166,77 +166,71 @@ body.nombre .general {
 body.nombre a {
   opacity: 1;
 }
+.imagenes ul {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  height: 350px;
+}
+.imagenes ul li {
+  width: 33.33333333%;
+}
+.imagenes ul img {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+.imagenes ul h3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 300px;
+  font-family: 'Akzidenz-Grotesk BQ';
+  font-size: 1.2em;
+}
+/* ----------------------------------
+/* TEMPLATE PREGUNTAS */
+/*------------------------------------*/
+body.preguntas a {
+  opacity: 1;
+}
+body.preguntas li.prueba {
+  margin-left: 166px;
+}
+body.preguntas ul.prueba {
+  margin-right: -53px;
+}
+body.preguntas.azul h2,
+body.preguntas.azul p,
+body.preguntas.azul ul {
+  color: #284a6c;
+}
 /***SECCION 1****/
 body.seccion1 {
   background: url(../img/fondo_seccion1.png) no-repeat center;
+  background-size: cover;
   background-attachment: fixed;
-}
-body.seccion1 img {
-  margin-left: -113px;
-  position: relative;
-  right: -28px;
-}
-body.seccion1 a {
-  opacity: 1;
-}
-body.seccion1 li {
-  margin-left: 174px;
-  padding-right: 74px;
-}
-body.seccion1 li.prueba {
-  margin-left: 166px;
-}
-body.seccion1 ul.prueba {
-  margin-right: -53px;
 }
 /***SECCION 2****/
 body.seccion2 {
   background: url(../img/fondo_seccion2.png) no-repeat center;
   background-attachment: fixed;
 }
-body.seccion2 img {
-  margin-left: -113px;
-  position: relative;
-  right: -28px;
-}
 body.seccion2 a {
   opacity: 1;
-}
-body.seccion2 li {
-  margin-left: 140px;
 }
 body.seccion2 li.prueba {
   margin-left: 126px;
 }
 body.seccion2 ul.prueba {
-  margin-right: 53px;
+  margin-right: -53px;
 }
 /***SECCION 3****/
 body.seccion3 {
   background: url(../img/fondo_seccion3.png) no-repeat center;
   background-attachment: fixed;
-}
-body.seccion3 img {
-  margin-left: -113px;
-  position: relative;
-  right: -28px;
-}
-body.seccion3 a {
-  opacity: 1;
-}
-body.seccion3 li {
-  margin-left: 140px;
-}
-body.seccion3 li.prueba {
-  margin-left: 126px;
-}
-body.seccion3 ul.prueba {
-  margin-right: 53px;
-}
-body.seccion3 h2,
-body.seccion3 p,
-body.seccion3 ul {
-  color: #284a6c;
 }
 /****RESULTADO A ***/
 body.a {
@@ -430,11 +424,13 @@ body.d section.a .col .btn-2g:hover {
   body.c .col.dos,
   body.d .col.dos {
     background: url(../img/premio_enlace_responsive.png) no-repeat center !important;
+    min-height: 350px !important;
+    border-radius: 20px 0 0 20px;
+    margin-top: 120px;
     /* min-height: 1px; */
     padding: inherit;
     /* padding-right: 173px; */
     margin-left: 20px;
-    margin-right: 103px;
     /* margin: 10px 10px; */
   }
   body.a h2,
@@ -442,14 +438,15 @@ body.d section.a .col .btn-2g:hover {
   body.c h2,
   body.d h2 {
     width: 80%;
-    font-size: 2em;
+    font-size: 1.2em;
+    margin-top: 30px !important;
   }
   body.a p,
   body.b p,
   body.c p,
   body.d p {
     width: 80%;
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
   body.a img,
   body.b img,
@@ -462,11 +459,47 @@ body.d section.a .col .btn-2g:hover {
     margin-bottom: 23px;
   }
   .responsive {
-    display: inherit!important;
-    padding: initial!important;
-    min-height: auto!important;
+    display: inherit !important;
+    padding: initial !important;
+    min-height: auto !important;
   }
   .computadora {
-    display: none!important;
+    display: none !important;
+  }
+  .container > section {
+    padding: 2em 1em !important;
+  }
+  .template-section h2 {
+    font-size: 1.2em;
+  }
+  .ac-custom {
+    padding: 0;
+  }
+  .imagenes ul {
+    padding: 0;
+    height: 280px;
+    margin-bottom: 0;
+  }
+  .imagenes ul li img {
+    width: 90%;
+    margin: 2%;
+  }
+  .imagenes ul li label {
+    left: 0;
+    margin: 0 auto;
+    width: 30px;
+    top: 25%;
+  }
+  .imagenes ul li h3 {
+    font-size: 0.8em;
+    top: 70%;
+  }
+  .imagenes ul li svg {
+    margin-top: -100px;
+    left: 10px;
+    right: 0;
+  }
+  .btn-2g {
+    margin: 0 auto;
   }
 }

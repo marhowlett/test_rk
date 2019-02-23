@@ -8,8 +8,8 @@ RK COOL</title>
 <meta property="og:title" content="ERES UN 
 RK COOL" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://test.rksports.com.mx/test/b.php" />
-<meta property="og:image" content="http://test.rksports.com.mx/test/img/Resultados-Test_Cool.png" />
+<meta property="og:url" content="http://test.rksports.com.mx/b.php" />
+<meta property="og:image" content="http://test.rksports.com.mx/img/Resultados-Test_Cool.png" />
 <meta property="og:description" content="Sin duda es el más cool de su casa, su escuela, su trabajo y su grupo de amigos. | ¿Qué RK eres? Te sorprenderás." />
 	
 <link rel="stylesheet" type="text/css" href="less/main.css" />

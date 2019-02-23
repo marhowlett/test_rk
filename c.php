@@ -8,8 +8,8 @@ RK FELIZ</title>
 <meta property="og:title" content="ERES UN 
 RK FELIZ" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://test.rksports.com.mx/test/c.php" />
-<meta property="og:image" content="http://test.rksports.com.mx/test/img/Resultados-Test_Fel.png" />
+<meta property="og:url" content="http://test.rksports.com.mx/c.php" />
+<meta property="og:image" content="http://test.rksports.com.mx/img/Resultados-Test_Fel.png" />
 <meta property="og:description" content="Eres una persona feliz y todos sienten aprecio y una simpatía especial por ti | ¿Qué RK eres? Te sorprenderás." />
 	
 <link rel="stylesheet" type="text/css" href="less/main.css" />

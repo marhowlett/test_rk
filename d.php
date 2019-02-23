@@ -9,7 +9,7 @@ RK EXTROVERTIDO</title>
 RK EXTROVERTIDO" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://test.rksports.com.mx/test/d.php" />
-<meta property="og:image" content="http://test.rksports.com.mx/test/img/Resultados-Test_Extro.png" />
+<meta property="og:image" content="http://test.rksports.com.mx/img/Resultados-Test_Extro.png" />
 <meta property="og:description" content="Amas romper las reglas, eres diferente y vanguardista | ¿Qué RK eres? Te sorprenderás." />
 	
 <link rel="stylesheet" type="text/css" href="less/main.css" />
