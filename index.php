@@ -17,7 +17,7 @@
 	<h2>TODA LA DIVERSIÓN DE EMOJI</h2>
 	<p>Los únicos con la licencia oficial más original e innovadora</p>
 	<div class="que_eres">
-		<h2>¿Qué RK eres?</h2>
+		<h2 class="rk">¿Qué RK eres?</h2>
 		<p>¡Te sorprenderás!</p>
 	</div>
 	<img src="img/balones.png" class="compu" alt="">
