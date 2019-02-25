@@ -7,12 +7,16 @@
 }
 
 @font-face {
-    font-family: 'Akzidenz-Grotesk BQ';
-    src: url('fonts/AkzidenzGroteskBQ-Bold.woff2') format('woff2'),
-        url('fonts/AkzidenzGroteskBQ-Bold.woff') format('woff');
+    font-family: 'Akzidenz-Grotesk BQ_';
+    src: url('fonts/AkzidenzGroteskBQ-BoldExtIt.woff2') format('woff2'),
+        url('fonts/AkzidenzGroteskBQ-BoldExtIt.woff') format('woff');
     font-weight: bold;
-    font-style: normal;
+    font-style: italic;
 }
+
+
+
+
 
 @import "vars";
 /*Ajuste de FullWidth*/
@@ -92,13 +96,13 @@ form {
     h2 {
 
         color: #efeeef;
-        font-family: 'Akzidenz-Grotesk BQ';
+        font-family: 'Akzidenz-Grotesk BQ_';
         font-size: 3.1em;
         font-weight: bold;
         line-height: 1.3em;
 
         i {
-            font-family: 'Akzidenz-Grotesk BQ';
+            font-family: 'Akzidenz-Grotesk BQ_';
             display: block;
             font-size: 1.5em;
         }
@@ -251,7 +255,7 @@ body.nombre {
             right: 0;
             margin: 0 auto;
             top: 300px;
-            font-family: 'Akzidenz-Grotesk BQ';
+            font-family: 'Akzidenz-Grotesk BQ_';
             font-size: 1.2em;
         }
     }
@@ -676,6 +680,38 @@ body.d {
 
     .btn-2g {
         margin: 0 auto;
+    }
+
+}
+
+
+@media screen and (min-width: 1300px) and (max-width: 1780px) and (max-height:800px) {
+
+    body.inicio .que_eres {
+        margin-top: -14px;
+            height: 120px;
+    }
+    body.inicio section {
+    padding: initial;
+}
+    body.inicio {
+        h2 {
+            margin-top: 0px;
+            
+        }
+        p {
+                margin-top: -38px;
+        }
+        section img {
+   
+    margin-top: 6px;
+    width: 55%;
+}
+        section .buton {
+    
+    margin-top: -10px;
+}
+        
     }
 
 }

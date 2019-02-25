@@ -38,7 +38,7 @@ RK EXTROVERTIDO" />
 RK Extrovertido</h2>
 	<p>Amas romper las reglas, eres diferente y vanguardista, como si vinieras de otro mundo. Tú eres de esas personas que marcan tendencia y rompes los esquemas. Tu excentricismo te hace especial y admirado.</p>
 
-		<div class="buton "><a target="_blank" class="btn btn-2 btn-2g " href="http://www.facebook.com/sharer.php?u=http://test.rksports.com.mx/test/d.php" >Compartir </a></div>
+		<div class="buton "><a target="_blank" class="btn btn-2 btn-2g " href="http://www.facebook.com/sharer.php?u=http://test.rksports.com.mx/d.php" >Compartir </a></div>
 		</div>
 </div>
 	</section>

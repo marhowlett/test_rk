@@ -5,6 +5,7 @@ session_start(); //Iniciamos la Sesion o la Continuamos
 <head>
     <title>
     <?php echo ($_SESSION["name"]) ?> ES UN RK Ángel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="<?php echo ($_SESSION["name"]) ?> ES UN RK Ángel" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="http://test.rksports.com.mx/a.php" />

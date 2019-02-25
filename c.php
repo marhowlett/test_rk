@@ -36,7 +36,7 @@ RK FELIZ" />
 	<h2> <?php echo ($_SESSION["name"]) ?> ERES UN 
 RK FELIZ</h2>
 	<p>Eres una persona feliz y todos sienten aprecio y una simpatía especial por ti, aunque como todo gato, eres reservado y cauteloso; sin embargo, como te sabes adorable ves la vida con optimismo y buen humor. 
-		<div class="buton "><a target="_blank" class="btn btn-2 btn-2g " href="http://www.facebook.com/sharer.php?u=http://test.rksports.com.mx/test/c.php" >Compartir </a></div>
+		<div class="buton "><a target="_blank" class="btn btn-2 btn-2g " href="http://www.facebook.com/sharer.php?u=http://test.rksports.com.mx/c.php" >Compartir </a></div>
 		</div>
 </div>
 	</section>
