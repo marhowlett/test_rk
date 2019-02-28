@@ -9,7 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="css/component2.css" />
 		  <?php include 'bubble_link.php'; ?>
 		<script src="js/modernizr.custom.js"></script>
-	<title>Hola</title>
+	<title>RK</title>
 	</head>
 <body class="inicio">
  <?php include 'bubble.php'; ?>
